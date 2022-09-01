@@ -11,11 +11,12 @@
   "terminal.integrated.defaultProfile.osx": "bash",
   "javascript.validate.enable": true,
   "editor.showUnused": true,
-  "java.format.settings.url": "/Users/vincentlau/github/venturenixlab/public/code-formatter/java/googlestyle.xml",
+  "java.format.settings.url": "C:\\projects\\github\\laptop-setup\\vscode\\code-formatter\\java\\googlestyle.xml",
   //"editor.codeActionsOnSave": {
   //    "source.organizeImports": true
   //},
   //"editor.formatOnSave": true,
+  //"terminal.integrated.fontFamily": "MesloLGS NF"
   "redhat.telemetry.enabled": false,
   "editor.suggestSelection": "first",
   "editor.rulers": [
@@ -41,6 +42,5 @@
           "level": "off"
       }
   },
-  "editor.fontSize": 12.8
-  //"terminal.integrated.fontFamily": "MesloLGS NF"
+  "editor.fontSize": 14
 }
