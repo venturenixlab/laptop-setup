@@ -84,11 +84,9 @@ HIST_STAMPS="yyyy-mm-dd"
 # Add wisely, as too many plugins slow down shell startup.
 
 # plugins=(git)
-plugins=(
-     git
-     zsh-syntax-highlighting
-     zsh-autosuggestions
-)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+POWERLEVEL10K_MODE="nerdfont-complete"
+POWERLEVEL10K_LEFT_PROMPT_ELEMENTS=(os_icon dir newline vcs)
 
 source $ZSH/oh-my-zsh.sh
 
