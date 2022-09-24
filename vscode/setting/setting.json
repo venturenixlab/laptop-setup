@@ -6,7 +6,7 @@
   "workbench.iconTheme": "ayu",
   "workbench.colorTheme": "One Dark Pro Darker",
   "snyk.yesWelcomeNotification": false,
-  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/vincentlau/.vscode/extensions/vscjava.vscode-lombok-1.0.1/server/lombok.jar\"",
+  "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
   "workbench.startupEditor": "none",    
   "terminal.integrated.defaultProfile.osx": "bash",
   "javascript.validate.enable": true,
@@ -42,5 +42,5 @@
           "level": "off"
       }
   },
-  "editor.fontSize": 14
+  "editor.fontSize": 13
 }
